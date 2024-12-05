@@ -1,0 +1,102 @@
+{
+  "todos": [
+      {
+          "id": "1",
+          "tag": "general",
+          "title": "Travel to Japan",
+          "subtitle": "Holiday Vacation",
+          "backgroundImage": "assets/images/japan.png",
+          "backgroundImageSource": "https://via.placeholder.com/300",
+          "userName": "Willy Santoso",
+          "userImage": "assets/images/author.png",
+          "startDate": "2021-11-11 08:12:30",
+          "dueDate": "2021-11-21 08:12:30",
+          "progress": 0.3,
+          "status": false,
+          "description": "Trip to Japan finding best foodies and make some vlog for youtube channel",
+          "subtasks": [
+              {
+                  "title": "Eating Ramen",
+                  "status": true
+              },
+              {
+                "title": "Eating Omelete",
+                "status": false
+              },
+              {
+                "title": "Eating Melon",
+                "status": false
+              }
+          ],
+          "comments": [
+              {
+                  "id": "1",
+                  "profileImageUrl": "assets/images/person.jpeg",
+                  "comment": "Visit a Shrine Today!",
+                  "timestamp": "10"
+              },
+              {
+                  "id": "2",
+                  "profileImageUrl": "assets/images/person.jpeg",
+                  "comment": "Eating Pancake Today",
+                  "timestamp": "30"
+              },
+              {
+                  "id": "3",
+                  "profileImageUrl": "assets/images/person.jpeg",
+                  "comment": "Awesome Place at Kyoto",
+                  "timestamp": "40"
+              }
+          ]
+      },
+      {
+        "id": "2",
+        "tag": "important",
+        "title": "Deadline Work",
+        "subtitle": "Work at HackCompany",
+        "backgroundImage": "assets/images/work.png",
+        "backgroundImageSource": "https://via.placeholder.com/300",
+        "userName": "Willy Santoso",
+        "userImage": "assets/images/author.png",
+        "startDate": "2021-11-21 08:11:59",
+        "dueDate": "2021-11-30 02:00:30",
+        "progress": 0.9,
+        "status": true,
+        "description": "Practices make perfect with good will everyting can be done.",
+        "subtasks": [
+            {
+              "title": "Workshop App development",
+              "status": false
+            },
+            {
+              "title": "Improve Program",
+              "status": false
+            },
+            {
+                "title": "Make Analsys for Stakeholder",
+                "status": true
+            }
+        ],
+        "comments": [
+            {
+                "id": "1",
+                "profileImageUrl": "assets/images/person.jpeg",
+                "comment": "Nice Progress",
+                "timestamp": "20"
+            },
+            {
+                "id": "2",
+                "profileImageUrl": "assets/images/person.jpeg",
+                "comment": "tight decision for improvement",
+                "timestamp": "20"
+            },
+            {
+                "id": "3",
+                "profileImageUrl": "assets/images/person.jpeg",
+                "comment": "Made a mistake and need to rework",
+                "timestamp": "30"
+            }
+        ]
+    }
+  ]
+}
